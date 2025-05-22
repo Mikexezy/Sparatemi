@@ -19,8 +19,9 @@ In particolare esistono 31 _registri generici_ + i _registri speciali_.
 Quelli generici sono:
 
 1. _x0 - x7_ , usati per il passaggio di argomenti e valori di ritorno00
+2. \_x8,
 
-## .section **TEXT,**text
+## .section \_\_TEXT, \_\_text
 
 Questa riga di codice va messa in ogni file Assembly che andiamo a creare, si occupa infatti di definire la sezione di codice. (Dice al compilatore che tutto quello che ci sta sotto è codice Assembly)
 
