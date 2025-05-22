@@ -31,7 +31,9 @@ I registri generici più usati sono:
 
 > Ogni registro xN ha una versione ridotta wN per sistemi a 32 bit.
 
----
+<br>
+<br>
+<br>
 
 # 🏗️ Struttura di un file Assembly ARM64
 
