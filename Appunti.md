@@ -18,7 +18,8 @@ In particolare esistono 31 _registri generici_ + i _registri speciali_.
 
 I registri generici più usati sono:
 
-1. _x0 - x7_ , usati per il passaggio di argomenti e valori di ritorno.
+- _x0 - x7_ , usati per il passaggio di argomenti e valori di ritorno.
+
 2. _x8_ , riservato esclusivamente per chiamate di sistema.
 3. _x9 - x15_ , sono registri temporanei usati dal compilatore stesso.
 4. _x16 - x18_ , riservati a System Call, Link e usi speciali.
