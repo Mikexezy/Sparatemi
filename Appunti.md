@@ -31,6 +31,8 @@ I registri generici più usati sono:
 
 > Ogni registro xN ha una versione ridotta wN per sistemi a 32 bit.
 
+---
+
 ## .section \_\_TEXT, \_\_text
 
 Questa riga di codice va messa in ogni file Assembly che andiamo a creare, si occupa infatti di definire la sezione di codice. (Dice al compilatore che tutto quello che ci sta sotto è codice Assembly)
