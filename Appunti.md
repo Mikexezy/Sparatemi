@@ -29,7 +29,6 @@ I registri generici più usati sono:
 9. _pc_ , usato come Program Counter.
 10. _xzr_ , è un registro speciale che vale sempre 0.
 
-> [!curiosità]
 > Ogni registro xN ha una versione ridotta wN per sistemi a 32 bit.
 
 ## .section \_\_TEXT, \_\_text
