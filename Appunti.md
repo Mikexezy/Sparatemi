@@ -31,6 +31,38 @@ I registri generici più usati sono:
 
 > Ogni registro xN ha una versione ridotta wN per sistemi a 32 bit.
 
+### 🧾 LE ISTRUZIONI PRINCIPALI
+
+📦 Movimento dati
+
+1. _mov x0, #5_ Carica valore immediato 5 in x0
+2. _mov x1, x0_ Copia valore da x0 a x1
+3. _ldr x0, =label_ Carica indirizzo di una variabile
+4. _str x0, [x1]_ Scrive valore di x0 in memoria
+
+➕ Aritmetica
+
+1. _add x0, x1, x2_ Somma x1 e x2, salva in x0
+2. _sub x0, x1, x2_ Sottrai x2 da x1, salva in x0
+3. _mul x0, x1, x2_ Moltiplica x1 e x2
+
+🔁 Controllo di flusso
+
+1. _b label_ Salta sempre a label
+2. _bl funzione_ Chiama funzione (salva ritorno in x30)
+3. _ret_ Ritorna dalla funzione
+4. _cmp x0, x1_ Confronta x0 con x1
+5. _b.eq label_ Salta a label se uguali
+6. _b.ne label_ Salta se diversi
+7. _b.gt, b.lt, b.ge, b.le_ Confronti numerici
+
+🧵 Stack
+
+1. _stp x29, x30, [sp, #-16]!_ Push di due registri
+2. _ldp x29, x30, [sp], #16_ Pop di due registri
+3. _sub sp, sp, #16_ Riserva spazio sullo stack
+4. _add sp, sp, #16_ Libera spazio
+
 <br>
 <br>
 <br>
