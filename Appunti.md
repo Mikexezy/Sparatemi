@@ -1,4 +1,4 @@
-# Basi
+# 🧠 Basi
 
 Ogni processore, proprio come il mio ARM64, lavora seguendo un determinato schema:
 
@@ -32,6 +32,8 @@ I registri generici più usati sono:
 > Ogni registro xN ha una versione ridotta wN per sistemi a 32 bit.
 
 ---
+
+# 🏗️ Struttura di un file Assembly ARM64
 
 ## .section \_\_TEXT, \_\_text
 
