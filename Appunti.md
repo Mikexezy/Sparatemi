@@ -50,7 +50,6 @@ Serve a definire \_main come una funzione visibile dall'esterno
 Dice al compilatore che \_main inizia da qua
 
  <br>
- 
 ### Esempio
 ```Assembly
 .section __TEXT,__text
