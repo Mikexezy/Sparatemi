@@ -11,7 +11,7 @@ Le parti principali sono:
 3. ALU, che usiamo per fare somme, confronti ecc.
 4. Unità di controllo, che esegue le istruzioni una per volta.
 
-#### I registri
+### I registri
 
 I registri sono i posti in cui il processore è in grado di leggere e scrivere più velocemente.
 In particolare esistono 31 _registri generici_ + i _registri speciali_.
